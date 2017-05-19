@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="CSS/SignUp.css"/>
+</head>
+<body>
+
+<header>
+    <div id="top-left">
+    <img id="logo-img" src="https://ssl.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_112x36dp.png" alt="Google logo"/>
+    </div>
+    <div id="top-right">
+        <input id="signin" class="btn" type="button" value="Sign in"/>
+    </div>
+
+</header>
+
+<div id="container">
+
+<section>
+    <h1 class="header">Create your Google Account</h1>
+    <div id="left">
+    <div id="top" class="info">
+        <h3 class="header">One account is all you need</h3>
+        <h4 class="header">One free account gets you into everything Google</h4>
+        <img class="center-img" id="logostrip-img" src="https://ssl.gstatic.com/accounts/ui/wlogostrip_325x24_1x.png"/>
+    </div>
+    <div id="bottom" class="info">
+        <h3 class="header">Take it all with you</h3>
+        <h4 class="header">Switch between devices, and pick up wherever you left off.</h4>
+        <img class="center-img" id="devices-img" src="https://ssl.gstatic.com/accounts/signup/devices_1x.png"/>
+    </div>
+    </div>
+
+    <div id="right">
+        <form>
+
+            <fieldset class="form-sections">
+                <legend><strong>Name</strong></legend>
+            <input type="text" id="first" placeholder="First" size="15px"/>
+            <input type="text'" id="last" placeholder="Last" size="15px"/>
+            </fieldset>
+
+            <fieldset class="form-sections">
+                <legend><strong>Choose your username</strong></legend>
+                <input type="text" id="username" size="38px" placeholder="username@gmail.com"/>
+                <div>
+                <a id="existingemail" href="https://accounts.google.com/SignUp?continue=https%3A%2F%2Fwww.google.com%2F%3Fgws_rd%3Dssl&hl=en">I prefer to use my current email address</a>
+                </div>
+            </fieldset>
+
+            <fieldset class="form-sections">
+                <legend><strong>Create a password</strong></legend>
+                <input type="password" id="password" size="38px"/>
+            </fieldset>
+
+            <fieldset class="form-sections">
+                <legend><strong>Confirm your password</strong></legend>
+                <input type="password" id="confirm-password" class="longbox"/>
+            </fieldset>
+
+            <fieldset class="form-sections">
+                <legend><strong>Birthday</strong></legend>
+                <select id="month">
+                    <option hidden="true" selected="true">Month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select>
+                <input type="text" id="day" placeholder="Day" size="5px"/>
+                <input type="text" id="Year" placeholder="Year" size="10px"/>
+            </fieldset>
+
+            <fieldset class="form-sections">
+                <legend><strong>Gender</strong></legend>
+                <select id="gender" class="longbox">
+                    <option hidden="true" selected="true">I am...</option>
+                    <option>Female</option>
+                    <option>Male</option>
+                    <option>Other</option>
+                    <option>Rather not say</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="form-sections">
+                <legend><strong>Mobile phone</strong></legend>
+                <input type="text" id="mobile" class="longbox"/>
+            </fieldset>
+
+            <fieldset class="form-sections">
+                <legend><strong>Your current email address</strong></legend>
+                <input type="email" id="current-email" class="longbox"/>
+            </fieldset>
+
+            <fieldset class="form-sections">
+                <legend><strong>Location</strong></legend>
+                <select id="location" class="longbox">
+                    <option selected="true">United States</option>
+                    <option>Australia</option>
+                    <option>Brazil</option>
+                    <option>China</option>
+                    <option>India</option>
+                    <option>Russia</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="form-sections">
+                <input type="button" class="btn" id="next-step" value="Next Step"/>
+            </fieldset>
+
+        </form>
+    </div>
+
+</section>
+</div>
+<footer>
+    <div id="bottom-left"><p>Google <a href="https://accounts.google.com/TOS?loc=US&hl=en">Privacy & Terms</a>   <a href="https://support.google.com/accounts?hl=en">Help</a></p></div>
+    <div id="bottom-right">
+        <img id="language-img" src="https://ssl.gstatic.com/images/icons/ui/common/universal_language_settings-21.png"/>
+        <select>
+            <option>Afrikaans</option>
+            <option>Deutsch</option>
+            <option selected="true">English(United States)</option>
+            <option>Indonesia</option>
+            <option>Italiano</option>
+            <option>Nederlands</option>
+            <option>Polski</option>
+            <option>Suomi</option>
+
+
+        </select>
+    </div>
+</footer>
+
+</body>
+
+</html>
